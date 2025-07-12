@@ -2,8 +2,6 @@
 ## Abstract
 Detecting anomalies in multivariate time series (MTS) is essential for maintaining system safety in industrial environments. Due to the challenges associated with acquiring labeled data, unsupervised approaches have attracted increasing attention for anomaly detection. However, existing methods face challenges in capturing temporal dependencies within individual entities and spatial correlations among different entities. Moreover, traditional approaches that rely solely on point-wise or periodic criteria often fail to detect structurally complex anomalous patterns. To address these challenges, we propose an unsupervised anomaly detection framework, namely, Spatio-temporal Fusion Flow with Dynamic Graph Learning (STF²-DGL), which jointly models long-short-term temporal patterns and evolving inter-variable dependencies. The framework leverages an encoder to capture multi-scale temporal features, generates dynamic graph structures via spatio-temporal fusion, and integrates these representations into a structure-aware normalizing flow optimized with a graph-enhanced loss. This unified design enables STF²-DGL to effectively distinguish subtle and structurally complex patterns in multivariate time series.
 
-This repository is based on [`USD`](https://github.com/zangzelin/code_USD.git).
-
 ## Framework
 ![Framework](./asset/method1.png)
 
