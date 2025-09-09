@@ -39,7 +39,7 @@ mkdir input
 Download the dataset in ```Data/input```.
 
 ## Run the code
-For example, run the USD for the dataset of  ```PSM```
+For example, run the STF²-DGL for the dataset of  ```PSM```
 ```
 bash ./run/run_PSM_mymodel.sh
 ```
